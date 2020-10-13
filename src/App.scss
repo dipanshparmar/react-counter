@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  user-select: none;
+}
+
+header {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  background: rgb(0, 0, 0);
+
+  span {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+}
+
+footer {
+  display: flex;
+  height: 5vh;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background: deeppink;
+  align-items: center;
+  color: white;
+}
+
+div.counter {
+    display: flex;
+    height: 85vh;
+    align-items: center;
+    justify-content: center;
+
+    span.counterValue {
+        font-size: 30px;
+    }
+
+  button {
+    padding: 10px 15px;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 10px;
+  }
+}
